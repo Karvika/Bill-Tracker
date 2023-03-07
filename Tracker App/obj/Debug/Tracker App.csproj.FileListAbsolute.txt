@@ -868,3 +868,90 @@ C:\Users\karvika\source\repos\Final Project\Bill-Tracker\Tracker App\obj\Debug\T
 C:\Users\karvika\source\repos\Final Project\Bill-Tracker\Tracker App\obj\Debug\Tracker App.csproj.CopyComplete
 C:\Users\karvika\source\repos\Final Project\Bill-Tracker\Tracker App\obj\Debug\Tracker App.dll
 C:\Users\karvika\source\repos\Final Project\Bill-Tracker\Tracker App\obj\Debug\Tracker App.pdb
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Tracker App.dll.config
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Tracker App.dll
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Tracker App.pdb
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Antlr3.Runtime.dll
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\EntityFramework.dll
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\EntityFramework.SqlServer.dll
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Google.Api.Gax.dll
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Google.Apis.Auth.dll
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Google.Apis.Auth.PlatformServices.dll
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Google.Apis.Calendar.v3.dll
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Google.Apis.Core.dll
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Google.Apis.dll
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Google.Apis.PlatformServices.dll
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Highcharts.dll
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Microsoft.Owin.dll
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Microsoft.Owin.Security.dll
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Newtonsoft.Json.dll
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Owin.dll
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\System.ValueTuple.dll
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\System.Web.Helpers.dll
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\System.Web.Mvc.dll
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\System.Web.Optimization.dll
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\System.Web.Razor.dll
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\System.Web.WebPages.Deployment.dll
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\System.Web.WebPages.dll
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\System.Web.WebPages.Razor.dll
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\WebGrease.dll
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Google.Api.Gax.pdb
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Google.Api.Gax.xml
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Google.Apis.pdb
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Google.Apis.xml
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Google.Apis.Auth.pdb
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Google.Apis.Auth.xml
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Google.Apis.Calendar.v3.pdb
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Google.Apis.Calendar.v3.xml
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Google.Apis.Core.pdb
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Google.Apis.Core.xml
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Newtonsoft.Json.xml
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\System.ValueTuple.xml
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\System.Web.Helpers.xml
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\System.Web.Mvc.xml
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\System.Web.Optimization.xml
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\System.Web.Razor.xml
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\System.Web.WebPages.xml
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\System.Web.WebPages.Deployment.xml
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\System.Web.WebPages.Razor.xml
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Antlr3.Runtime.pdb
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\EntityFramework.xml
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\EntityFramework.SqlServer.xml
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Microsoft.Owin.xml
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Microsoft.Owin.Security.xml
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\obj\Debug\Tracker App.csproj.AssemblyReference.cache
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\obj\Debug\Tracker_App.Migrations.Initial.resources
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\obj\Debug\Tracker App.csproj.GenerateResource.cache
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\obj\Debug\Tracker App.csproj.CoreCompileInputs.cache
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\obj\Debug\Tracker App.csproj.CopyComplete
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\obj\Debug\Tracker App.dll
+C:\Users\adity\source\repos\DXCProject\Try\Bill-Tracker\Tracker App\obj\Debug\Tracker App.pdb

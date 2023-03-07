@@ -8,6 +8,7 @@ using Tracker_App.Models;
 
 namespace Tracker_App.Controllers
 {
+    [Authorize]
     public class GraphController : Controller
     {
         // GET: Graph

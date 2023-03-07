@@ -12,6 +12,7 @@ using System.Web.Mvc;
 
 namespace Tracker_App.Controllers
 {
+    [Authorize]
     public class CalendersController : Controller
     {
         // GET: Calenders

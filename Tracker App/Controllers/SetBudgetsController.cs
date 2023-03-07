@@ -10,6 +10,7 @@ using Tracker_App.Models;
 
 namespace Tracker_App.Controllers
 {
+    [Authorize]
     public class SetBudgetsController : Controller
     {
         private TrackerDBContext db = new TrackerDBContext();
