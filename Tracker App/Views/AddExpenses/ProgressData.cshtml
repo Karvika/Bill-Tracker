@@ -1,0 +1,148 @@
+﻿@{
+    ViewBag.Title = "ProgressData";
+}
+
+<h2>ProgressData</h2>
+<br />
+<br />
+<br />
+
+
+<div class="progress-bars-container">
+
+    <script>
+        var colors = ['skyblue', 'khaki', 'aqua', 'lavender', 'yellow', 'Orange', 'pink', 'salmon','deepskyblue'];
+
+        for (var i = 0; i < @ViewBag.count; i++) {
+
+            // Create a new div element
+            var div = document.createElement('div');
+            var span = document.createElement('span');
+            // Set the class and text content of the div element
+            div.setAttribute('class', 'progress-bar');
+            div.setAttribute('role', 'progress-bar');
+            div.setAttribute('aria-valuenow', '0');
+            div.setAttribute('aria-valuemin', '0');
+            div.setAttribute('aria-valuemax', '100');
+            span.setAttribute('class', 'sr-only');
+
+            div.style.backgroundColor = colors[i];
+
+            div.textContent = 'Div ' + (i + 1);
+
+            // Add the div element to the container
+            document.querySelector('.progress-bars-container').appendChild(div);
+        }
+
+    </script>
+
+
+    <!-- Add more progress bars for each category -->
+</div>
+
+<script>
+    //Working of Rent category
+    $(function () {
+        $.get('/AddExpenses/GetProgressData', function (data) {
+            var arr = [];
+
+
+            for (let i = 0; i <@ViewBag.count; i++) {
+                arr[i] = data[i]['categoryName'];
+
+            }
+
+            //div.setAttribute('Title', arr[0]);
+            //div.setAttribute('Title', arr[1]);
+            //div.setAttribute('Title', arr[2]);
+            //div.setAttribute('Title', arr[3]);
+            //div.setAttribute('Title', arr[4]);
+            //div.setAttribute('Title', arr[5]);
+
+
+            //console.log(arr.length);
+            @*for (var i = 0; i < @ViewBag.count; i++) {
+                div.setAttribute( Title , arr[i]);
+            }*@
+
+
+
+            var totalExpenses = 0;
+            $.each(data, function (index, progress) {
+                totalExpenses += progress.expenseAmount;
+            });
+            $.each(data, function (index, progress) {
+                var progressBar = $('.progress-bar').eq(index);
+                //var progressValue = progress.expenseAmount;
+                //var progressText = progress.categoryName + ': $' + progressValue.toFixed(2);
+
+
+
+                // Calculate the progress percentage
+                var progressPercentage = (progress.expenseAmount / totalExpenses * 100).toFixed(2);
+
+                // Calculate the progress percentage in Dollars
+                //var progressPercentage = Math.round(progressValue / totalExpenses * 100);
+
+                // Clamp the progress percentage to the range [0, 100]
+                progressPercentage = Math.min(progressPercentage, 100);
+
+                // Set the progress bar width and text  in Dollars
+                //progressBar.css('width', progressPercentage + '%');
+                //progressBar.attr('aria-valuenow', progressValue);
+                //progressBar.text(progressText);
+
+
+                progressBar.css('width', progressPercentage + '%');
+                progressBar.attr('aria-valuenow', progressPercentage);
+                progressBar.text(progress.categoryName + ' : ' + progressPercentage + '%');
+
+
+            });
+
+        });
+    });
+
+
+
+</script>
+
+<style>
+    /* CSS for progress bar container */
+
+    body {
+        background-color: #F7cac9;
+    }
+
+    .progress {
+        height: 20px;
+        background-color: #f5f5f5;
+        border-radius: 4px;
+        margin-bottom: 20px;
+        overflow: hidden;
+        font-size: 20px;
+    }
+
+    /* CSS for progress bar */
+    .progress-bar {
+        height: 100%;
+        background-color: #4CAF50; /* Green */
+        text-align: center;
+        line-height: 20px;
+        transition: width 0.6s ease;
+        width: 30%;
+        color: black;
+    }
+
+    .progress-bars-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    /* Hover effect for progress bar */
+    .progress-bar:hover {
+        font-size: 25px;
+
+    }
+</style>

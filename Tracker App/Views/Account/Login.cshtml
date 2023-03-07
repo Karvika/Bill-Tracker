@@ -1,0 +1,89 @@
+﻿@using Tracker_App.Models
+@model LoginViewModel
+@{
+    ViewBag.Title = "Login";
+}
+
+<link href="~/Scripts/Login.css" rel="stylesheet" />
+<div class="row">
+    <div>
+        <section id="loginForm">
+            @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+            {
+
+                <section class="vh-100 bg-image"
+                         style="background-image: url('../../Images/LOGIN.png'); ">
+                    <div class="mask d-flex align-items-center h-100 gradient-custom-3">
+
+                        <div class="container h-100">
+                            <div class="row d-flex justify-content-center align-items-center h-100">
+                                <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                                    <div class="card" style="border-radius: 15px;">
+                                        <div class="card-body p-5">
+
+                                            @Html.AntiForgeryToken()
+                                            <h4>Use a local account to log in.</h4>
+                                            <hr />
+                                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                                            <div class="form-group">
+                                                @Html.LabelFor(m => m.Email, new { @class = "col-md-2 control-label" })
+                                                <div class="col-md-5">
+                                                    @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                                                    @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                @Html.LabelFor(m => m.Password, new { @class = "col-md-2 control-label" })
+                                                <div class="col-md-5">
+
+                                                    @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                                                    @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <div class="col-md-offset-1 col-md-5">
+                                                    <div class="checkbox">
+                                                        @Html.CheckBoxFor(m => m.RememberMe)
+                                                        @Html.LabelFor(m => m.RememberMe)
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="col-md-offset-1 col-md-5">
+                                                    <input type="submit" value="Log in" class="btn btn-default" />
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <p class="forgot">
+                                                    @Html.ActionLink("Register As A New User", "Register")
+                                                </p>
+                                            </div>
+                                            <p>
+                                                @* Enable this once you have account confirmation enabled for password reset functionality*@
+                                                @Html.ActionLink("Forgot your password?", "ForgotPassword")
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            }
+
+        </section>
+        <div class="col-md-4">
+            <section id="socialLoginForm">
+
+             
+
+            </section>
+        </div>
+    </div>
+
+    @section Scripts {
+        @Scripts.Render("~/bundles/jqueryval")
+    }
+</div>
